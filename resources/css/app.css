@@ -10,3 +10,18 @@
 .sidebar{
     @apply ml-0 transition-all ease-out duration-500;
 }
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+.logo-slide svg{
+    display: inline-block;
+    animation: 2s slide infinite linear;
+    
+}

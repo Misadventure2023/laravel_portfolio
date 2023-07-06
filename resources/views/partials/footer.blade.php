@@ -1,33 +1,7 @@
 
 
 
-<footer class="py-10 mt-4 w-full  bg-white  ">
-<div class="flex items-center justify-between">
-    <div class="mx-4">
-        <img class="w-20 object-contain " src="{{URL::asset('assets/img/logo.png')}}" alt="">
-    </div>
-    <div class="flex gap-6 md:gap-16 text-center md:mx-4 px-9">
-        <ul class="" >
-            <li>Mobie App</li>
-            <li>Feature</li>
-            <li>Feature</li>
-            <li>Feature</li>
-        </ul>
-        <ul>
-            <li>Mobie App</li>
-            <li>Feature</li>
-            <li>Feature</li>
-            <li>Feature</li>
-        </ul>
-        <ul>
-            <li>Mobie App</li>
-            <li>Feature</li>
-            <li>Feature</li>
-            <li>Feature</li>
-        </ul>
-    </div>
-</div>
-    <hr class="mt-2 border bg-color-gray-300"/>    
+<footer class="py-4 w-full  bg-white  border-t border-gray-100">    
     <div class="mt-2 mr-2 flex justify-between">
         <div>
             <small class="text-gray-500 md:m-4 p-4">&copy; MISADVENTURE 2023</small>

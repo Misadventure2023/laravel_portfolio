@@ -12,7 +12,7 @@
         <form action="" method="post" class="" >
             @csrf
             
-            <div class="h-96 w-full bg-white mx-10 px-8 flex flex-col justify-center shadow-lg rounded relative">
+            <div class="w-auto  bg-white  px-14 flex flex-col justify-center shadow-lg rounded relative">
                 <div class="w-24 mb-4 mt-6 mx-auto ">
                     <img class="" src="{{URL::asset("assets/img/logowhitebg.jpg")}}" alt="">
                 </div>

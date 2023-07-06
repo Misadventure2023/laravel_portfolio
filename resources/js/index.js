@@ -50,3 +50,17 @@ $('#search').on('keyup', function () {
      });
    });
 });
+
+$(document).scroll(function () { 
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+       $('#to-top').removeClass('hidden');
+    }else{
+        $('#to-top').addClass('hidden');
+    }
+});
+
+$('#to-top').click(function (e) { 
+    window.scrollTo({top:0});
+    e.preventDefault();
+    
+});
