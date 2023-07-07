@@ -2,6 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+    .pause {
+      animation-play-state: paused;
+    }
+ }
 
 .visible{
     @apply transition-all ease-out duration-500;
@@ -11,17 +16,43 @@
     @apply ml-0 transition-all ease-out duration-500;
 }
 
-@keyframes slide {
-    from{
-        transform: translateX(0);
-    }
-    to{
-        transform: translateX(-100%);
-    }
+.logos::before, .logos::after{
+    @apply absolute h-32 w-8 md:w-20 md:h-full z-50 ;
+    content: "";
+   
+}
+.logos::before{
+    @apply bg-gradient-to-r from-white;
+}
+.logos::after{
+    @apply right-0 top-0   bg-gradient-to-l from-white  ;
+}
+.logos-slide{
+    /* animation: 10s slide infinite linear; */
+    @apply  inline cursor-grab;
     
 }
-.logo-slide svg{
-    display: inline-block;
-    animation: 2s slide infinite linear;
+.logos-slide img{
     
+    @apply md:h-40 h-12 inline md:px-3  ;
+    
+}
+.logo-wrapper svg{
+    line-height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    @apply text-black rounded-full cursor-pointer z-50 text-center absolute w-6 md:w-10 ;
+}
+
+
+.logo-wrapper svg:last-child{
+    @apply right-2 ;
+}
+
+.logo-wrapper .no-transition{
+    scroll-behavior: auto;
+}
+.logo-wrapper .dragging{
+    scroll-behavior: auto;
+    scroll-snap-type: none;
 }
