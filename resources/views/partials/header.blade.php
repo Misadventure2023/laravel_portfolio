@@ -10,4 +10,4 @@
     @vite('resources/css/app.css')
 
 </head>
-<body class="bg-gray-100 font-sans  min-h-screen max-w-screen-2xl mx-auto flex justify-between flex-col ">
+<body class="bg-gray-100 font-sans  min-h-screen max-w-screen-3xl mx-auto flex justify-between flex-col ">
