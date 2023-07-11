@@ -118,90 +118,85 @@
                     <span class="mt-2">
                         <img src="{{URL::asset('assets/img/php.png')}}" alt=""  draggable="false">
                     </span>
-                    <p class="mt-2 font-bold text-gray-700">PHP</p>
+                    <p class="mt-2 font-bold text-slate-700 dark:text-slate-500">PHP</p>
                     <p class="mt-2 text-gray-700">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit incidunt quas adipisci harum, id
-                        perspiciatis doloremque voluptate nemo sint qui!
+                       PHP is a popular server-side scripting language used primarily for web development.
+                       I've been using PHP since college because its the most widely use in our university.
                     </p>
                 </div>
                 <div class="p-4 card-hover md:w-96">
                     <span class="mt-2">
                         <img src="{{URL::asset('assets/img/laravel.png')}}" alt="" draggable="false">
                     </span>
-                    <p class="mt-2 font-bold text-gray-700">ECOMMERCE </p>
-                    <p class="mt-2 text-gray-700">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit incidunt quas adipisci harum, id
-                        perspiciatis doloremque voluptate nemo sint qui!
+                    <p class="mt-2 font-bold text-slate-700 dark:text-slate-500">Laravel </p>
+                    <p class=" text-gray-700 ">
+                        Laravel is a popular open-source PHP framework used for web application development and it follows MVC architectural pattern.
+                        I just recently using this framework and i'm still on practice to familiarize all the functionality of Laravel 
                     </p>
                 </div>
                 <div class="p-4 card-hover md:w-96">
                     <span class="mt-2">
                         <img src="{{URL::asset('assets/img/codeigniter.png')}}" alt=""  draggable="false">
                     </span>
-                    <p class="mt-2 font-bold text-gray-700">ANALYTICS</p>
+                    <p class="mt-2 font-bold  text-slate-700 dark:text-slate-500">Codeigniter</p>
                     <p class="mt-2 text-gray-700">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit incidunt quas adipisci harum, id
-                        perspiciatis doloremque voluptate nemo sint qui!
+                        CodeIgniter is a lightweight PHP framework and It also follows the  MVC architectural pattern. I started to use Codeigniter to practice and familiarize in OOP and MVC architectural before I moved up to Laravel Framework.
                     </p>
                 </div>
                 <div class="p-4 card-hover md:w-96">
                     <span class="mt-2">
                         <img src="{{URL::asset('assets/img/HTML.png')}}" alt=""  draggable="false">
                     </span>
-                    <p class="mt-2 font-bold text-gray-700">BACKEND</p>
+                    <p class="mt-2 font-bold text-slate-700 dark:text-slate-500">HTML</p>
                     <p class="mt-2 text-gray-700">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit incidunt quas adipisci harum, id
-                        perspiciatis doloremque voluptate nemo sint qui!
+                        HTML is the standard markup language used for creating web pages and applications. HTML is the foundation of web development same with Javascript and Css to create interactive websites.
                     </p>
                 </div>
                 <div class="p-4 card-hover md:w-96">
                     <span class="mt-2">
                         <img src="{{URL::asset('assets/img/CSS.png')}}" alt=""  draggable="false">
                     </span>
-                    <p class="mt-2 font-bold text-gray-700">CSS</p>
+                    <p class="mt-2 font-bold  text-slate-700 dark:text-slate-500">CSS</p>
                     <p class="mt-2 text-gray-700">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit incidunt quas adipisci harum, id
-                        perspiciatis doloremque voluptate nemo sint qui!
+                        CSS allows web developers to control the appearance of web pages, including layout, colors, fonts, and other visual aspects.  
                     </p>
                 </div>
                 <div class="p-4 card-hover md:w-96">
                     <span class="mt-2">
                         <img src="{{URL::asset('assets/img/Bootstrap.png')}}" alt=""  draggable="false">
                     </span>
-                    <p class="mt-2 font-bold text-gray-700">BOOTSTRAP</p>
+                    <p class="mt-2 font-bold  text-slate-700 dark:text-slate-500">BOOTSTRAP</p>
                     <p class="mt-2 text-gray-700">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit incidunt quas adipisci harum, id
-                        perspiciatis doloremque voluptate nemo sint qui!
+                        Bootstrap is a popular open-source front-end framework that provides a collection of HTML, CSS, and JavaScript components and tools for building responsive and mobile-first web applications.
+                    </p>
                     </p>
                 </div>
                 <div class="p-4 card-hover md:w-96">
                     <span class="mt-2">
                         <img src="{{URL::asset('assets/img/Tailwind.png')}}" alt=""  draggable="false">
                     </span>
-                    <p class="mt-2 font-bold text-gray-700">BOOTSTRAP</p>
+                    <p class="mt-2 font-bold text-gray-700">Tailwind CSS</p>
                     <p class="mt-2 text-gray-700">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit incidunt quas adipisci harum, id
-                        perspiciatis doloremque voluptate nemo sint qui!
-                    </p>
+                        Tailwind CSS is a utility-first CSS framework that provides a set of pre-built utility classes.
+                        Tailwind CSS focuses on providing low-level utility classes. BTW
+                        This portfolio website is using Tailwind CSS Framework.
                 </div>
                 <div class="p-4 card-hover md:w-96">
                     <span class="mt-2">
                         <img src="{{URL::asset('assets/img/JS.png')}}" alt="" draggable="false" >
                     </span>
-                    <p class="mt-2 font-bold text-gray-700">BOOTSTRAP</p>
+                    <p class="mt-2 font-bold text-gray-700">JavaScript</p>
                     <p class="mt-2 text-gray-700">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit incidunt quas adipisci harum, id
-                        perspiciatis doloremque voluptate nemo sint qui!
+                        JavaScript is a high-level programming language primarily used for client-side web development. It allows developers to add interactive and dynamic elements to websites, create web applications, manipulate web page content, and interact with servers and databases. 
                     </p>
                 </div>
                 <div class="p-4 card-hover md:w-96">
                     <span class="mt-2">
                         <img class="p-2" src="{{URL::asset('assets/img/Flutterflow.png')}}" alt="" draggable="false" >
                     </span>
-                    <p class="mt-2 font-bold text-gray-700">BOOTSTRAP</p>
+                    <p class="mt-2 font-bold text-gray-700">FlutterFlow</p>
                     <p class="mt-2 text-gray-700">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit incidunt quas adipisci harum, id
-                        perspiciatis doloremque voluptate nemo sint qui!
+                        FlutterFlow is a visual development platform that allows developers and non-technical users to build mobile and web applications using a drag-and-drop interface. I'm Using FlutterFlow for my newly Freelancing project for mobile and web application.
                     </p>
                 </div>
             <!-- Main Skill Cards Ends Here-->
